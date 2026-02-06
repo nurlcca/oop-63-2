@@ -1,0 +1,30 @@
+Commands to register your data
+git config --global user.name "nurlcca"
+git config --global user.email "lh52174@truman.edu"
+
+Commands for one project
+git init
+git remote add origin https://github.com/nurlcca/oop-63-2.git
+
+
+Main commands to work with Git
+git status | project condition
+git add .  | copy all to clipboard
+git commit -m "lesson1" | commit changes
+git push origin main | push changes to remote repository
+
+git branch | show all branches
+git brach branch_name | create new branch
+
+git watch branch_name | switch to a brach
+git checkout branch_name | switch to a brach
+
+git switch -c branch_name | create new branch and switch to it
+git checkout -b branch_name | 
+
+git reset. | 
+git restore . | restore all changes
+
+
+git branch -M main | rename branch
+git branch -d branch_name | delete branch
