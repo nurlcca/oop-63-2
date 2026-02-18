@@ -25,6 +25,37 @@ git checkout -b branch_name |
 git reset. | 
 git restore . | restore all changes
 
+git pull      | Стянуть изменения из репы
+
+
+production
+
+-- Realise:1.0.0.1
+
+test|stage|
+
+dev
+
+feat/register
+feat/send_otp
+feat/...
+
+
+-m "feat: register added new file register.py #link"
+
+-m "fix: fixed line method"
+
+-m "update: update"
+
 
 git branch -M main | rename branch
 git branch -d branch_name | delete branch
+
+py
+python
+pyhton3 -m venv venv
+
+source name_venv/bin/activate Mac
+source name_venv/Scripts/activate Windows
+
+source .venv/bin/activate
